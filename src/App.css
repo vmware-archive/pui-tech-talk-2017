@@ -1,0 +1,31 @@
+body {
+    padding: 32px;
+}
+
+.menu-item {
+    padding: 8px;
+}
+
+.menu-item + .menu-item {
+    margin-top: 16px;
+}
+
+.gluten-free, .seasonal {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 8px;
+    font-size: 10px;
+    height: 16px;
+    border-radius: 4px;
+    line-height: 16px;
+}
+
+.menu-item-title {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
