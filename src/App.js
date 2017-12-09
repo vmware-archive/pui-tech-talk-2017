@@ -15,7 +15,7 @@ import 'pivotal-ui/css/whitespace';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {tab: 1};
+    this.state = {tab: 0};
   }
 
   render() {
