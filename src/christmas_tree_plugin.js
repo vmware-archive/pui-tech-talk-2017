@@ -1,7 +1,8 @@
 import {TablePlugin} from 'pivotal-ui/react/table';
 
-const greenBg = {style: {backgroundColor: 'lightgreen'}};
-const pinkBg = {style: {backgroundColor: 'pink'}};
+const greenBg = {style: {backgroundColor: '#dfd'}};
+const pinkBg = {style: {backgroundColor: '#fdd'}};
+const cols = ['glutenFree', 'seasonal'];
 
 export function withChristmasTree(Table) {
   return class TableWithChristmasTree extends TablePlugin {

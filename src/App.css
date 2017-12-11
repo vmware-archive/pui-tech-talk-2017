@@ -37,3 +37,7 @@ h1 {
 .show-grid .col {
     border: 2px dashed darkorange;
 }
+
+.peppers {
+    letter-spacing: 4px;
+}
