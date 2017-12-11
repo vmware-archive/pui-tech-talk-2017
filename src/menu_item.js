@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, FlexCol} from 'pivotal-ui/react/flex-grids';
-import {renderPeppers} from './helpers/application_helper';
+import {renderPeppers, formatPrice} from './helpers/application_helper';
 
 export default class MenuItem extends React.Component {
   render() {

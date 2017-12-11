@@ -20,3 +20,5 @@ export function prettifyContent(content) {
     </div>
   </div>)
 };
+
+export const formatPrice = price => `$${(+price).toFixed(2)}`;
