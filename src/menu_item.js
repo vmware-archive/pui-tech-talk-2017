@@ -12,6 +12,20 @@ export default class MenuItem extends React.Component {
       seasonal && 'seasonal'
     ].filter(i => i).join(', ');
 
-    return null;
+    return (
+      <Grid className="menu-item box-shadow-3">
+        <FlexCol>
+          <Grid>
+            <FlexCol fixed>{name}</FlexCol>
+            <FlexCol>{renderPeppers(spiciness)}</FlexCol>
+            <FlexCol fixed>{formatPrice(price)}</FlexCol>
+          </Grid>
+          <Grid>
+            <FlexCol>{description}</FlexCol>
+            <FlexCol fixed>{details}</FlexCol>
+          </Grid>
+        </FlexCol>
+      </Grid>
+    );
   }
 }

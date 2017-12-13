@@ -9,7 +9,9 @@ export function withChristmasTree(Table) {
     render() {
       return this.renderTable(Table, {
         td: (props, {rowDatum, column: {attribute}}) => {
+          if (cols.indexOf(attribute) === -1) return;
 
+          return rowDatum[attribute] ? greenBg : pinkBg
         }
       });
     }
